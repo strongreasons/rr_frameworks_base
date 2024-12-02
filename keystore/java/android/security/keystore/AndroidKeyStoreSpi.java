@@ -116,6 +116,7 @@ public class AndroidKeyStoreSpi extends KeyStoreSpi {
     @Override
     public Certificate[] engineGetCertificateChain(String alias) {
         PixelPropsUtils.onEngineGetCertificateChain();
+
         if (alias == null) {
             throw new NullPointerException("alias == null");
         }
