@@ -109,6 +109,7 @@ import libcore.util.EmptyArray;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
@@ -635,6 +636,7 @@ public class ApplicationPackageManager extends PackageManager {
             "oriole",
             "raven"
     };
+
     private static final String[] featuresPixel = {
             "com.google.android.apps.photos.PIXEL_2019_PRELOAD",
             "com.google.android.apps.photos.PIXEL_2019_MIDYEAR_PRELOAD",
@@ -651,6 +653,7 @@ public class ApplicationPackageManager extends PackageManager {
             "com.google.android.feature.GOOGLE_BUILD",
             "com.google.android.feature.GOOGLE_EXPERIENCE"
     };
+
     private static final String[] featuresPixelOthers = {
             "com.google.android.feature.ASI",
             "com.google.android.feature.ANDROID_ONE_EXPERIENCE",
@@ -668,6 +671,7 @@ public class ApplicationPackageManager extends PackageManager {
             "com.google.android.apps.dialer.call_recording_audio",
             "com.google.android.apps.dialer.SUPPORTED"
     };
+
     private static final String[] featuresTensor = {
             "com.google.android.feature.PIXEL_2025_EXPERIENCE",
             "com.google.android.feature.PIXEL_2025_MIDYEAR_EXPERIENCE",
@@ -679,6 +683,7 @@ public class ApplicationPackageManager extends PackageManager {
             "com.google.android.feature.PIXEL_2022_MIDYEAR_EXPERIENCE",
             "com.google.android.feature.PIXEL_2021_EXPERIENCE"
     };
+
     private static final String[] featuresNexus = {
             "com.google.android.apps.photos.NEXUS_PRELOAD",
             "com.google.android.apps.photos.nexus_preload",
