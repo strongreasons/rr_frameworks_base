@@ -182,8 +182,8 @@ public final class PixelPropsUtils {
         propsToChangePixel9ProXL.put("PRODUCT", "komodo");
         propsToChangePixel9ProXL.put("HARDWARE", "komodo");
         propsToChangePixel9ProXL.put("MODEL", "Pixel 9 Pro XL");
-        propsToChangePixel9ProXL.put("ID", "AP3A.241105.008");
-        propsToChangePixel9ProXL.put("FINGERPRINT", "google/komodo/komodo:15/AP3A.241105.008/12485168:user/release-keys");
+        propsToChangePixel9ProXL.put("ID", "BP1A.250405.007");
+        propsToChangePixel9ProXL.put("FINGERPRINT", "google/komodo/komodo:15/BP1A.250405.007/13240079:user/release-keys");
         propsToChangePixelTablet = new HashMap<>();
         propsToChangePixelTablet.put("BRAND", "google");
         propsToChangePixelTablet.put("MANUFACTURER", "Google");
@@ -191,8 +191,8 @@ public final class PixelPropsUtils {
         propsToChangePixelTablet.put("PRODUCT", "tangorpro");
         propsToChangePixelTablet.put("HARDWARE", "tangorpro");
         propsToChangePixelTablet.put("MODEL", "Pixel Tablet");
-        propsToChangePixelTablet.put("ID", "AP3A.241105.007");
-        propsToChangePixelTablet.put("FINGERPRINT", "google/tangorpro/tangorpro:15/AP3A.241105.007/12470370:user/release-keys");
+        propsToChangePixelTablet.put("ID", "BP1A.250405.007");
+        propsToChangePixelTablet.put("FINGERPRINT", "google/tangorpro/tangorpro:15/BP1A.250405.007/13240079:user/release-keys");
         propsToChangePixelXL = new HashMap<>();
         propsToChangePixelXL.put("BRAND", "google");
         propsToChangePixelXL.put("MANUFACTURER", "Google");
@@ -386,18 +386,18 @@ public final class PixelPropsUtils {
             return;
         // Alter build parameters to avoid hardware attestation enforcement
         setPropValue("MANUFACTURER", "Google");
-        setPropValue("MODEL", "Pixel 9 Pro XL");
-        setPropValue("FINGERPRINT", "google/komodo_beta/komodo:15/AP41.240925.009/12534705:user/release-keys");
+        setPropValue("MODEL", "Pixel 9");
+        setPropValue("FINGERPRINT", "google/tokay_beta/tokay:16/BP22.250325.007/13352765:user/release-keys");
         setPropValue("BRAND", "google");
-        setPropValue("PRODUCT", "komodo_beta");
-        setPropValue("DEVICE", "komodo");
-        setPropValue("VERSION.RELEASE", "15");
-        setPropValue("ID", "AP41.240925.009");
-        setPropValue("VERSION.INCREMENTAL", "12534705");
+        setPropValue("PRODUCT", "tokay_beta");
+        setPropValue("DEVICE", "tokay");
+        setPropValue("VERSION.RELEASE", "16");
+        setPropValue("ID", "BP22.250325.007");
+        setPropValue("VERSION.INCREMENTAL", "13352765");
         setPropValue("TYPE", "user");
         setPropValue("TAGS", "release-keys");
-        setPropValue("VERSION.SECURITY_PATCH", "2024-10-05");
-        setPropValue("VERSION.DEVICE_INITIAL_SDK_INT", "32");
+        setPropValue("VERSION.SECURITY_PATCH", "2025-04-05");
+        setPropValue("VERSION.DEVICE_INITIAL_SDK_INT", "21");
     }
 
     private static boolean isCallerSafetyNet() {
