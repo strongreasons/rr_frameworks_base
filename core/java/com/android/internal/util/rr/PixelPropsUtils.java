@@ -182,8 +182,8 @@ public final class PixelPropsUtils {
         propsToChangePixel9ProXL.put("PRODUCT", "komodo");
         propsToChangePixel9ProXL.put("HARDWARE", "komodo");
         propsToChangePixel9ProXL.put("MODEL", "Pixel 9 Pro XL");
-        propsToChangePixel9ProXL.put("ID", "BP1A.250405.007");
-        propsToChangePixel9ProXL.put("FINGERPRINT", "google/komodo/komodo:15/BP1A.250405.007/13240079:user/release-keys");
+        propsToChangePixel9ProXL.put("ID", "BP1A.250505.005");
+        propsToChangePixel9ProXL.put("FINGERPRINT", "google/komodo/komodo:15/BP1A.250505.005/13277524:user/release-keys");
         propsToChangePixelTablet = new HashMap<>();
         propsToChangePixelTablet.put("BRAND", "google");
         propsToChangePixelTablet.put("MANUFACTURER", "Google");
@@ -191,8 +191,8 @@ public final class PixelPropsUtils {
         propsToChangePixelTablet.put("PRODUCT", "tangorpro");
         propsToChangePixelTablet.put("HARDWARE", "tangorpro");
         propsToChangePixelTablet.put("MODEL", "Pixel Tablet");
-        propsToChangePixelTablet.put("ID", "BP1A.250405.007");
-        propsToChangePixelTablet.put("FINGERPRINT", "google/tangorpro/tangorpro:15/BP1A.250405.007/13240079:user/release-keys");
+        propsToChangePixelTablet.put("ID", "BP1A.250505.005");
+        propsToChangePixelTablet.put("FINGERPRINT", "google/tangorpro/tangorpro:15/BP1A.250505.005/13277524:user/release-keys");
         propsToChangePixelXL = new HashMap<>();
         propsToChangePixelXL.put("BRAND", "google");
         propsToChangePixelXL.put("MANUFACTURER", "Google");
@@ -387,16 +387,16 @@ public final class PixelPropsUtils {
         // Alter build parameters to avoid hardware attestation enforcement
         setPropValue("MANUFACTURER", "Google");
         setPropValue("MODEL", "Pixel 9");
-        setPropValue("FINGERPRINT", "google/tokay_beta/tokay:16/BP22.250325.007/13352765:user/release-keys");
+        setPropValue("FINGERPRINT", "google/tokay_beta/tokay:16/BP31.250502.008/13497110:user/release-keys");
         setPropValue("BRAND", "google");
         setPropValue("PRODUCT", "tokay_beta");
         setPropValue("DEVICE", "tokay");
         setPropValue("VERSION.RELEASE", "16");
-        setPropValue("ID", "BP22.250325.007");
-        setPropValue("VERSION.INCREMENTAL", "13352765");
+        setPropValue("ID", "BP31.250502.008");
+        setPropValue("VERSION.INCREMENTAL", "13497110");
         setPropValue("TYPE", "user");
         setPropValue("TAGS", "release-keys");
-        setPropValue("VERSION.SECURITY_PATCH", "2025-04-05");
+        setPropValue("VERSION.SECURITY_PATCH", "2025-05-05");
         setPropValue("VERSION.DEVICE_INITIAL_SDK_INT", "21");
     }
 
